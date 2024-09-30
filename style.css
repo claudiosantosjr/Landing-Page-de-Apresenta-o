@@ -101,23 +101,27 @@
   cursor: pointer;
   transition: 0.4s;
 }
-.bodyPage {
+.backgroudImageContainer {
   background-image: url("body2.jpg");
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bodyPage {
   color: aliceblue;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-top: 50px;
+  margin-left: 50px;
 }
 .bioPage {
   border: 10px solid rgba(28, 225, 255, 0.163);
+  background-color: rgba(33, 186, 209, 0.163);
   border-radius: 5%;
-  margin-left: 50px;
   padding: 20px;
   width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  gap: 10px;
-  grid-area: mainContent;
+}
+.contactPage {
+  margin-top: 200px;
 }
