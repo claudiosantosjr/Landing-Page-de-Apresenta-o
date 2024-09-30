@@ -120,8 +120,40 @@
   background-color: rgba(33, 186, 209, 0.163);
   border-radius: 5%;
   padding: 20px;
-  width: 600px;
+  width: 700px;
 }
 .contactPage {
   margin-top: 200px;
+}
+.projectPage {
+  border: 10px solid rgba(28, 225, 255, 0.163);
+  background-color: rgba(33, 186, 209, 0.163);
+  border-radius: 5%;
+  padding: 20px;
+  width: 300px;
+  height: 600px;
+  margin-top: 150px;
+  margin-left: 195px;
+  margin-bottom: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  color: rgb(199, 181, 181);
+  text-align: center;
+}
+.projectText {
+  margin-bottom: -20px;
+  border: 20px;
+}
+.containerProjetc {
+  border: 10px solid rgba(28, 225, 255, 0.163);
+  background-color: rgba(0, 0, 0, 0.163);
+  border-radius: 5%;
+  margin-top: 15px;
+  padding-top: 5px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contactPage {
+  margin-top: 385px;
 }
