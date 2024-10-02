@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 20px;
 }
 .topDisplayHeader {
   width: 100%;
@@ -12,9 +11,11 @@
   background-position: center;
 }
 .perfilPhoto {
+  background-image: url("fotoPerfil.jpg");
+  background-size: 250px;
+  background-position: center;
   width: 200px;
   height: 200px;
-  background-color: rgb(255, 255, 255);
   border-radius: 50%; /* Faz o quadrado virar um círculo */
   position: absolute; /* Se quiser posicionar o círculo dentro da div */
   top: 37%; /* Centraliza verticalmente */
@@ -24,7 +25,7 @@
 .navigator {
   height: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(237, 227, 227);
+  background-color: rgba(28, 18, 18, 0.373);
   display: flex;
   justify-content: flex-start;
   padding: 0px 100px 0px 100px;
@@ -111,7 +112,7 @@
 }
 .bodyPage {
   color: aliceblue;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-family: "Martian Mono", monospace;
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -135,11 +136,14 @@
   margin-top: 150px;
   margin-left: 195px;
   margin-bottom: 70px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(199, 181, 181);
   text-align: center;
 }
 .projectText {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-bottom: -20px;
   border: 20px;
 }
@@ -156,4 +160,15 @@
 }
 .contactPage {
   margin-top: 385px;
+}
+.footerPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  background-color: rgb(28, 18, 18, 0.373);
+  font-family: "Martian Mono", monospace;
+}
+.fontSizeFooter {
+  font-size: 15px;
 }
