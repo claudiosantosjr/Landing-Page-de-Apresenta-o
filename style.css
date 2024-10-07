@@ -137,14 +137,41 @@
   margin-left: 195px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(199, 181, 181);
+  color: rgb(113, 103, 103);
   text-align: center;
 }
-.projectText {
+.projectText1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(191, 188, 188);
   margin-bottom: -20px;
   border: 20px;
+}
+.projectText1:hover {
+  color: rgb(255, 255, 255);
+}
+.projectText2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(191, 188, 188);
+  margin-bottom: -20px;
+  border: 20px;
+}
+.projectText2:hover {
+  color: rgb(255, 255, 255);
+}
+.projectText3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(191, 188, 188);
+  margin-bottom: -20px;
+  border: 20px;
+}
+.projectText3:hover {
+  color: rgb(255, 255, 255);
 }
 .containerProjetc {
   border: 10px solid rgba(28, 225, 255, 0.163);
@@ -170,4 +197,6 @@
 }
 .fontSizeFooter {
   font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
