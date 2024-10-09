@@ -33,8 +33,8 @@
 .btnNavigator {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .navigatorBtn1 {
   font-size: 20px;
