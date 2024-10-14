@@ -111,7 +111,7 @@
   background-position: center;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, fr);
 }
 .bodyPage {
   color: aliceblue;
@@ -247,7 +247,38 @@
     padding: 5px;
     width: 290px;
   }
+
   .contactPage {
+    font-size: 10px;
     margin-top: 50px;
+    width: 300px;
+  }
+  .footerPage {
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 18, 18, 0.373);
+    font-family: "Martian Mono", monospace;
+    gap: 10px;
+  }
+  .backgroudImageContainer {
+    background-image: url("body2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  .projectPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(113, 103, 103);
+    text-align: center;
   }
 }
