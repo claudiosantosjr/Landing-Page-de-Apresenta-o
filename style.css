@@ -203,3 +203,51 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+@media (max-width: 320px) {
+  .topDisplayHeader {
+    width: 320px;
+    height: 230px;
+    background-image: url("header\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .perfilPhoto {
+    background-size: 250px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Faz o quadrado virar um círculo */
+    position: absolute; /* Se quiser posicionar o círculo dentro da div */
+    top: 25%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centralização exata */
+  }
+  .navigator {
+    height: 133px;
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(28, 18, 18, 0.373);
+  }
+  .btnNavigator {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bodyPage {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .bioPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 5px;
+    width: 290px;
+  }
+  .contactPage {
+    margin-top: 50px;
+  }
+}
