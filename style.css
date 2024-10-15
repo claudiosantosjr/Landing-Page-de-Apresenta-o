@@ -111,7 +111,7 @@
   background-position: center;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2, fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .bodyPage {
   color: aliceblue;
@@ -250,7 +250,7 @@
 
   .contactPage {
     font-size: 10px;
-    margin-top: 50px;
+    margin-top: 5px;
     width: 300px;
   }
   .footerPage {
@@ -266,8 +266,14 @@
   .backgroudImageContainer {
     background-image: url("body2.jpg");
     background-size: cover;
+  }
+  .backgroudImageContainer {
+    background-image: url("body2.jpg");
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
   }
   .projectPage {
     border: 10px solid rgba(28, 225, 255, 0.163);
@@ -280,5 +286,7 @@
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: rgb(113, 103, 103);
     text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
   }
 }
