@@ -204,9 +204,9 @@
   color: rgb(0, 0, 0);
 }
 
-@media (max-width: 320px) {
+@media (min-width: 200px) {
   .topDisplayHeader {
-    width: 320px;
+    width: auto;
     height: 230px;
     background-image: url("header\ \(2\).jpg");
     background-size: cover;
@@ -225,7 +225,7 @@
   }
   .navigator {
     height: 133px;
-    width: 320px;
+    width: auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(28, 18, 18, 0.373);
   }
@@ -287,6 +287,171 @@
     color: rgb(113, 103, 103);
     text-align: center;
     margin-left: 10px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 425px) {
+  .topDisplayHeader {
+    width: auto;
+    height: 230px;
+    background-image: url("header\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .perfilPhoto {
+    background-size: 250px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Faz o quadrado virar um círculo */
+    position: absolute; /* Se quiser posicionar o círculo dentro da div */
+    top: 25%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centralização exata */
+  }
+  .navigator {
+    height: 133px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(28, 18, 18, 0.373);
+  }
+  .btnNavigator {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bodyPage {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .bioPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 5px;
+    width: 290px;
+  }
+
+  .contactPage {
+    font-size: 10px;
+    margin-top: 5px;
+    width: 300px;
+  }
+  .footerPage {
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 18, 18, 0.373);
+    font-family: "Martian Mono", monospace;
+    gap: 10px;
+  }
+  .backgroudImageContainer {
+    background-image: url("body2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .projectPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(113, 103, 103);
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .topDisplayHeader {
+    width: auto;
+    height: 230px;
+    background-image: url("header\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .perfilPhoto {
+    background-size: 250px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Faz o quadrado virar um círculo */
+    position: absolute; /* Se quiser posicionar o círculo dentro da div */
+    top: 25%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centralização exata */
+  }
+  .navigator {
+    height: 40px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(28, 18, 18, 0.373);
+  }
+  .btnNavigator {
+    padding: 0;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bodyPage {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .bioPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 5px;
+    width: 700px;
+  }
+
+  .contactPage {
+    font-size: 10px;
+    margin-top: 5px;
+    width: 700px;
+  }
+  .footerPage {
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 18, 18, 0.373);
+    font-family: "Martian Mono", monospace;
+    gap: 10px;
+  }
+  .backgroudImageContainer {
+    background-image: url("body2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .projectPage {
+    border: 10px solid rgba(28, 225, 255, 0.163);
+    background-color: rgba(33, 186, 209, 0.163);
+    border-radius: 5%;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(113, 103, 103);
+    text-align: center;
     margin-top: 40px;
   }
 }
