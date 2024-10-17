@@ -666,3 +666,17 @@
     color: rgb(0, 0, 0);
   }
 }
+@media (min-height: 519px) {
+  .perfilPhoto {
+    background-image: url("fotoPerfil.jpg");
+    background-size: 250px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Faz o quadrado virar um círculo */
+    position: absolute; /* Se quiser posicionar o círculo dentro da div */
+    top: 19%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centralização exata */
+  }
+}
